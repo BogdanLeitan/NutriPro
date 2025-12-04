@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 50px;
 }
 
 #secImg, #secImg3, #secImg2{
@@ -10,19 +11,92 @@
 }
 
 #secParagraf{
-    width: 980px;
+    width: 700px;
     margin: 20px 0px;
+    text-align: justify;
 }
 
 #secText{
     margin: 0px;
 }
 
+#b{
+    color: #756a5a;
+}
+
+#desContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #756a5a;
+}
+
+#gText{
+    color: white;
+    font-size: 1.3em;
+}
+
+#foodContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pretContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#reducere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #fc2929;
+}
+
+#reducereText{
+    font-size: 1.5em;
+}
+
+#pretVechi{
+    text-decoration: line-through;
+    color: #fc2929;
+    font-size: 3em;
+    margin: 0px;
+}
+
+#pretNou{
+    margin: 0px;
+    font-size: 3em;
+    color: rgb(54, 255, 54);
+}
+
+#pContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
 #exploreaza{
     border: none;
     width: 200px;
     height: 40px;
-    background-color: #5353fc;
+    background: #5CE1E6;
+    background: linear-gradient(90deg, rgba(92, 225, 230, 1) 0%, rgba(140, 82, 255, 1) 64%);
     position: absolute;
     border-radius: 10px;
     color: white;
