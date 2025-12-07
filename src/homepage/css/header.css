@@ -11,6 +11,10 @@ header{
     width: 200px;
 }
 
+#cos{
+    width: 1.7em;
+}
+
 #sectionHeader{
     text-decoration: none;
     font-size: 1.3rem;
@@ -42,5 +46,5 @@ header{
 
 #Container{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
