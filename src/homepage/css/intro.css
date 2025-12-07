@@ -142,3 +142,54 @@
 #exploreButton:hover{
     transform: scale(1.1);
 }
+
+@media(max-width: 450px){
+    #introImg{
+        width: 13em;
+        margin-left: 0px;
+    }
+
+    #textIntro1, #textIntro2, #textIntro3, #textIntro4, #textIntro5, #textIntro6, #textIntro7, #textIntro8{
+        font-size: 1.7em;
+    }
+
+    #exploreButton{
+        font-size: 1rem;
+        width: 100px;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+
+    #dreapta{
+        margin-top: 100px;
+    }
+
+    #stanga{
+        display: none;
+    }
+
+    #textIntro1{
+        margin-left: -70px;
+    }
+
+    #textIntro2{
+        margin-left: -60px;
+    }
+
+    #textIntro3{
+        margin-left: -20px;
+    }
+
+    #textIntro4{
+        margin-left: -10px;
+    }
+
+    #textIntro5{
+        margin-left: -10px;
+    }
+
+    #textIntro6{
+        margin-left: -10px;
+    }
+}
