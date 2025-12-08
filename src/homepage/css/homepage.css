@@ -22,7 +22,6 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0px 100px;
     min-height: 500px;
     gap: 100px;
     margin-top: 300px;
@@ -31,8 +30,8 @@ h1{
 #textContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: end;
+    max-width: 600px;
     height: 100%;
 }
 
@@ -49,31 +48,16 @@ h1{
 
 #textParagraf{
     color: #b9b9b9;
+    text-align: justify;
     font-size: 1.2rem;
     margin-top: 20px;
     margin-bottom: 80px;
-    width: 700px;
+    width: 550px;
 }
 
-#imgContainer{
-    display: grid;
-    grid-template-columns: 350px 350px;
-    grid-template-rows: 450px 450px;
-    gap: 1rem;
-    height: 100%;
-    grid-template-areas: 
-        "box1 box1"
-        "box2 box3";
-}
-
-#box1, #box2, #box3{
-    width: 100%;
-    height: 100%;
+#salaImg{
+    width: 800px;
     border-radius: 15px;
-}
-
-#box2, #box3{
-    height: 55%;
 }
 
 #sc{
@@ -96,10 +80,21 @@ h1{
     width: 200px;
 }
 
-@media(max-width: 1000px){
-    #imgContainer{
-        grid-template-columns: 200px 200px;
-        grid-template-rows: 250px 250px;
+@media(max-width: 650px){
+    #salaImg{
+        width: 350px;
+    }
+    #textContainer{
+        justify-content: center;
+        align-items: center;
+    }
+    #textTitle{
+        text-align: center;
+        font-size: 2rem;
+    }
+    #textParagraf{
+        font-size: 1rem;
+        width: 350px;
     }
 }
 

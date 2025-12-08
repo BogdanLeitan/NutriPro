@@ -49,7 +49,8 @@ body{
     border-radius: 10px;
     width: 100px;
     height: 40px;
-    background-color: #fc2929;
+    background: #5CE1E6;
+    background: linear-gradient(90deg, #5ce1e6 0%, #8c52ff 64%);
 }
 
 #reducereText{
@@ -59,7 +60,7 @@ body{
 
 #pretVechi{
     text-decoration: line-through;
-    color: #fc2929;
+    color: #616161;
     font-size: 2em;
     margin: 0px;
 }
@@ -67,7 +68,7 @@ body{
 #pretNou{
     margin: 0px;
     font-size: 2em;
-    color: rgb(54, 255, 54);
+    color: #8c52ff;
     padding: 0px 35px;
 }
 
