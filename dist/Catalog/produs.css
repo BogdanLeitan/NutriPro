@@ -6,6 +6,16 @@
 }
 
 body{
-    background-color: black;
-    font-family: 'Gilroy', sans-serif;
+  background-color: black;
+  font-family: 'Gilroy', sans-serif;
+}
+
+#produsContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#produsImg{
+  width: 20em;
 }
