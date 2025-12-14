@@ -8,14 +8,28 @@
 body{
   background-color: black;
   font-family: 'Gilroy', sans-serif;
+  margin: 0px;
 }
 
 #produsContainer{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 600px;
+  gap: 100px;
 }
 
 #produsImg{
-  width: 20em;
+  width: 30em;
+}
+
+#TitluProdus{
+  color: white;
+  font-size: 4em;
+}
+
+#descriereProdus{
+  font-size: 1em;
+  width: 500px;
+  color: white;
 }
