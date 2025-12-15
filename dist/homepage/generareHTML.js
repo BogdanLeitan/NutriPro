@@ -20,7 +20,7 @@ let descriereProdus = document.getElementById("descriereProdus");
 let imgPath = [
     "mancare1", "mancare2", "mancare3", "mancare4", "mancare5", "mancare6",
     "mancare7", "mancare8", "mancare9", "mancare10", "baton1", "baton2", "baton3",
-    "baton4", "shake1", "shake2", "shake3", "shake4"
+    "shake1", "shake2", "shake3", "shake4"
 ];
 let titlu = [
     "Paste cu carne de pui", "Carne de pui cu orez", "Carne de peste cu legume",
