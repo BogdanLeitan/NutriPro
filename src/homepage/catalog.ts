@@ -1,5 +1,5 @@
 let a = document.querySelectorAll<HTMLElement>(".mancare"); 
-let isDebugg: boolean = false;
+let isDebugg: boolean = true;
 
 a.forEach(function(elem: HTMLElement){
     elem.addEventListener("click", () => {
