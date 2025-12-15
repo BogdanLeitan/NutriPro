@@ -10,10 +10,10 @@ a.forEach(function (elem) {
 });
 function extragereDinPath(path) {
     const fileName = path.split("/").pop();
-    if (isDebugg) {
+    /*if (isDebugg) {
         window.location.href = `produs.html?${fileName}`;
-    }
-    else {
+    } else {
         window.location.href = `/nutripro/dist/explore/produs.html?${fileName}`;
-    }
+    }*/
+    window.location.href = `/nutripro/dist/explore/produs.html?produs=${fileName}`;
 }
