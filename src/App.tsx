@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Landingpage />}/>
+          <Route path="/nutripro" element={<Landingpage />}/>
           <Route path="/catalog" element={<Catalog />}/>
           <Route path="/evenimente" element={<Eventspage />}/>
           <Route path="/faq" element={<Faqpage />}/>
