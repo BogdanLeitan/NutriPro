@@ -1,0 +1,62 @@
+.mancare{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #272727;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    height: 300px;
+
+    transition: transform 0.3s ease;
+}
+
+.mancare:hover{
+    transform: scale(1.05);
+}
+
+#mancareImg{
+    width: 12em;
+}
+
+#titluProdus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 250px;
+    font-size: 1.3em;
+    margin: 10px 0px;
+}
+
+#pretVechi{
+    text-decoration: line-through;
+    color: #616161;
+    font-size: 1.3em;
+    margin: 0px;
+    min-width: 100px;
+}
+
+#pretNou{
+    margin: 0px;
+    font-size: 1.3em;
+    color: #8c52ff;
+    padding: 0px 35px;
+}
+
+#reducere{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    top: 50px;
+    left: 0px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(248, 35, 35);
+}

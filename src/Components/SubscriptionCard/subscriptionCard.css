@@ -1,0 +1,137 @@
+/* ── SUBSCRIPTION SECTION ── */
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 25px;
+}
+
+.plans-section {
+  padding: 40px 60px 56px;
+}
+
+.plan-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+  width: 580px;
+  transition: transform 0.2s;
+}
+
+.plan-card:hover {
+  transform: translateY(-2px);
+}
+
+.plan-card.featured {
+  border-color: var(--accent1);
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.12), rgba(6, 182, 212, 0.06));
+}
+
+.plan-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, var(--accent1), var(--accent2));
+  color: #fff;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 100px;
+}
+
+.plan-name {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.plan-price {
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  color: var(--white);
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+
+.plan-price span {
+  font-size: 1rem;
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.plan-perks {
+  list-style: none;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.plan-perks li {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plan-perks li::before {
+  content: '✓';
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--accent2);
+  background: rgba(6, 182, 212, 0.12);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.plan-btn {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 13px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.plan-btn-outline {
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  color: var(--white);
+}
+
+.plan-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.plan-btn-fill {
+  background: linear-gradient(135deg, var(--accent1), #5b21b6);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 20px rgba(124, 58, 237, 0.4);
+}
+
+.plan-btn-fill:hover {
+  box-shadow: 0 6px 28px rgba(124, 58, 237, 0.6);
+}
