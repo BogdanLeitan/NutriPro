@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import Eventcard from "./Eventcard/Eventcard.tsx";
 import Header from "../Components/Header/Header.tsx";
 import Footer from "../Components/Footer/Footer.tsx";
