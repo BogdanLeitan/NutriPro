@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import Eventcard from "./Eventcard/Eventcard.tsx";
 import Header from "../Components/Header/Header.tsx";
 import Footer from "../Components/Footer/Footer.tsx";
@@ -42,15 +42,22 @@ function Eventspage() {
         </div>
 
         <div className="tab-panel active events-grid" id="tab-upcoming" ref={useFutureEv}>
-          <Eventcard luna={"APR"} status={"Înregistrare deschisă"} data={"12 Aprilie 2026"} judet={"Târgu Mureș"} title={"Târgul de Primăvară – Sănătate &amp; Nutriție"} descriere={"Expoziție dedicată produselor naturale și stilului de viață sănătos. Vom prezenta întreaga gamă de preparate dietetice cu degustare gratuită."} about={["Degustare", "Nutriție", "Stand propriu"]} />
-          <Eventcard luna={"MAI"} status={"Confirmat"} data={"3–5 Mai 2026"} judet={"Cluj-Napoca"} title={"Fitness Expo Cluj 2026"} descriere={"Cel mai mare eveniment de fitness din Transilvania. Prezentăm liniile de meniu pentru sportivi cu focus pe macro-nutrienți și preparare rapidă."} about={["Fitness", "Sportivi", "Proteic"]} />
-          <Eventcard luna={"IUN"} status={"În pregătire"} data={"21 Iunie 2026"} judet={"Târgu Mureș"} title={"Ziua Orașului – Food Festival"} descriere={"Festival gastronomic în centrul orașului. Participăm cu un stand dedicat unde prezentăm alternativele dietetice la mâncărurile tradiționale."} about={["Festival", "Street food", "Comunitate"]} />
+          <Eventcard luna={"MAR"} status={"Confirmat"} 
+            data={"23-24 Martie 2026"} judet={"Beclean"} 
+            title={"Târgul firmelor de exercitiu"} 
+            descriere={"Expoziție dedicată prezentari materialelor de promovare ale firmei de exercitiu (website)"} 
+            about={["Degustare", "Nutriție", "Stand propriu"]} />
+          
+          <Eventcard luna={"MAR"} 
+            status={"Confirmat"} data={"22 Mai 2026"} judet={"Cluj-Napoca"} 
+            title={"Târgul de Primăvară al firmelor de exercitiu"} 
+            descriere={"Prezentarea materialelor de promovare ale firmei (website, prezentare PPTX, imaginea firmei)"} 
+            about={["Fitness", "Sportivi", "Proteic"]} />
         </div>
 
         <div className="tab-panel events-grid" id="tab-past" ref={usePastEv}>
-          <Eventcard luna={"APR"} status={"Înregistrare deschisă"} data={"12 Aprilie 2026"} judet={"Târgu Mureș"} title={"Târgul de Primăvară – Sănătate &amp; Nutriție"} descriere={"Expoziție dedicată produselor naturale și stilului de viață sănătos. Vom prezenta întreaga gamă de preparate dietetice cu degustare gratuită."} about={["Degustare", "Nutriție", "Stand propriu"]} />
-          <Eventcard luna={"MAI"} status={"Confirmat"} data={"3–5 Mai 2026"} judet={"Cluj-Napoca"} title={"Fitness Expo Cluj 2026"} descriere={"Cel mai mare eveniment de fitness din Transilvania. Prezentăm liniile de meniu pentru sportivi cu focus pe macro-nutrienți și preparare rapidă."} about={["Fitness", "Sportivi", "Proteic"]} />
-          <Eventcard luna={"IUN"} status={"În pregătire"} data={"21 Iunie 2025"} judet={"Târgu Mureș"} title={"Ziua Orașului – Food Festival"} descriere={"Festival gastronomic în centrul orașului. Participăm cu un stand dedicat unde prezentăm alternativele dietetice la mâncărurile tradiționale."} about={["Festival", "Street food", "Comunitate"]} />
+          <Eventcard luna={"NOV"} status={"Confirmat"} data={"15 Decembrie 2025"} judet={"Satu Mare"} title={"Lansarea firmelor de exercitiu"} descriere={"Expoziție dedicată produselor naturale și stilului de viață sănătos. Vom prezenta întreaga gamă de preparate dietetice cu degustare gratuită."} about={["Degustare", "Nutriție", "Stand propriu"]} />
+          <Eventcard luna={"FEB"} status={"Confirmat"} data={"10 Februarie 2026"} judet={"Satu Mare"} title={"Bussines Plan"} descriere={"Prezentarea planului de afacere in fata juriului si raspunderea la intrebari referitoare la activitate"} about={["Fitness", "Sportivi", "Proteic"]} />
         </div>
       </section>
 
